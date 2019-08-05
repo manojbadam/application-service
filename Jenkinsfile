@@ -1,8 +1,10 @@
 // Declarative Pipeline
 pipeline {
-  stage("Build") {
-    steps {
-      sh("echo Building")
+  stages {
+    stage("Build") {
+      steps {
+        sh("echo Building")
+      }
     }
   }
 }
